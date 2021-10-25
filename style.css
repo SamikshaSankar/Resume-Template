@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(223, 217, 217);
+}
+
+body{
+    background-color:darkgrey;
+}
+
+.main{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+}
+.all-sheet{
+    height: 100%;
+    background-color:rgb(255, 253, 253);
+    color:rgb(43, 42, 42);
+}
+.top-section{
+    width: 100%;
+    height: 22rem;
+    background-color:rgb(43, 42, 42);  
+}
+.profile{
+    padding: 1.5rem 0rem 0rem 3rem;
+    float: left;
+    color: rgb(223, 217, 217);
+}
+.profile img{
+    width: 45%;
+    border-radius: 50%;
+    border: 0.5rem solid #4CAF50;  
+}
+img{
+    margin: auto 0.9rem;
+}
+.contact-info{
+    float: right;
+    padding: 2rem 4rem;
+}
+.contact-info li{
+    padding-bottom: 1rem;
+    
+}
+.contact-info a{
+    text-decoration: none;
+}
+.bio{
+    float: left;
+    padding:1.5rem 0 0 3rem;
+    font-size: 0.9rem;
+}
+.lower-left{
+    padding-top: 2rem;
+}
+.lower-left h2{  
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.squre{
+    border: 0.2rem solid #4CAF50;
+    padding: 1rem;
+    width: 7em;
+}
+.vtl {
+    position: relative;
+    padding: 2rem 0.3rem 0.9rem 2.8rem;
+    max-width: 31rem;
+  }
+.vtl::before {
+    content: '';
+    width: 0.2rem;
+    background-color: #e47256;
+    position: absolute;
+    top:4rem;
+    bottom: 2rem;
+    left: 2.8rem;
+  }
+  div.event {
+    padding: 1.5rem 1.8rem;
+    position: relative;
+    border-radius: 0.3rem;
+    margin-bottom: 0.6rem;
+  }
+  strong.edate {
+    font-size: 1.1em;
+    font-weight: bold;
+    color:black;
+  }
+  p.etxt {
+    margin: 0.6rem 0 0 0;
+    color: #222;
+  }
+  .year p{
+    color:black;
+    padding-top: 0.5rem;
+    font-size: 0.8em;
+    font: italic;
+    color: #e73e14;
+  }
+  div.event::after {
+    content: '';
+    background: #fff;
+    border: 0.2rem solid #e73e14;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: -0.5rem;
+  }
+  .butt {
+    padding: 0.7rem 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+  }
+  .button1 {
+    background-color: #e47256;
+    border: 2rem;
+  }
+  .button2 {
+    background-color: #e47256;
+    border: 2rem;
+  }
+  .design{
+      padding:2rem;
+  }
+  .design2{
+    padding:2rem 4rem 0rem 2rem;
+}
+
+
+
+  
+  
+  
